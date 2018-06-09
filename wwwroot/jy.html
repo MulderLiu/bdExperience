@@ -2,8 +2,8 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="250">
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <meta https-equiv="refresh" content="250">
+    <script src="httpss://code.jquery.com/jquery-2.1.1.min.js"></script>
     <title></title>
 </head>
 <body>
@@ -12,35 +12,35 @@
 </body>
 <script type="text/javascript">
     var list = [
-        "https://www.baidu.com/link?url=AtqNEBagUHWxxJ10-4e4wp3HZoUTXePZVBRYxxQ01m9JIE6ij4iEON5TsskZckRqIgouRGlVCGkVPLl5upqfQSelL-hmnvSIgS4hFXQe9S3&wd=&eqid=ae65aebe000320d0000000045b16162f"
-        , "http://www.baidu.com/link?url=rGLW9mu0LSLH6t1BnoFHc_V_yY5Qb9l4GMoK-K378p--FeovHbz8pA5mUhzJdMz-WMzu1KMphZXDcSqQQHtWY3kTOMyfvkQRwfXowPR0NVy&wd=&eqid=cc6dddd70003b9f9000000045b161645"
-        , "http://www.baidu.com/link?url=xCdJRq5EnuKqM-vXMzrwhKDiCZzGnR70bf7ZvGD3Wf0otr6Nl6e1DKj_DYt889EIRFMAVE2HTlFrfa6Z8bf22rv5dBRtNqxXJTFWmqrFUCO&wd=&eqid=e97089fb00032106000000045b16169c"
-        , "http://www.baidu.com/link?url=TKpmtKEShM5cvPmf2F7AXx0kiUBk5RsD_WAV82L3mBKvyMrrKICgeYu1FQA6FGrGuFLCmDK0MgMhDwHqtlbEZXPLgPzoX5oYaGaz7TRXrTG&wd=&eqid=c41013980002720c000000045b160a9a"
-        , "http://www.baidu.com/link?url=PwJbavM4yPAP4s-s3BgQbtP4qTT9P0OBpqoGquZcB3g-va3UfGzG1X0Q2frZnmML0nIOk-6ZqRm64hHJfXBtX0FmZTvDS-98U-FEiDo4aQq&wd=&eqid=847a33500003fa9a000000045b1616c7"
-        , "http://www.baidu.com/link?url=JurLryynjBozo5Byy_g_v6OcwGwluzCDbVxly8cAtPLlgNdSZblir6IE2rcGdIQuum55V_XvpLpjwJQBfJi38T85ss9cJ3D8bozykYF-99y&wd=&eqid=b1706f2200039b6c000000045b1616e8"
-        , "http://www.baidu.com/link?url=IAuCF47CuT9VH2DRT_EaVOXablNKINNMqG4yMAI7oRtqUJ71mwOZ4ekEI2r6pnRL3a2a1P8gP16-UBIyLHeNSsuuQHBIiURzRL1FgXoaWNu&wd=&eqid=b068191200034a80000000045b16170a"
-        , "http://www.baidu.com/link?url=PbOSBSEywpzaVfuGJb2cfOTpCttLVI4eiT2RAX8Ojlg1pES0FgA8zFuVWqeMmQHqq2EoLAtWz7WJ2KmR3cRKnxQQuaXow78bAN56BzJKHXS&wd=&eqid=f73409c60003d667000000045b161720"
-        , "http://www.baidu.com/link?url=9Ndtu4XtzBc32HQ7G-YY82ueRbDHBUOkfomdxgM1JHy-BhPsBYG6so3vFpPVis-g6nKosiPCKSPIwzwBJ7_D_8KwRnLPhYElOCwzVKCamQq&wd=&eqid=d8f973f40003d389000000045b161735"
-        , "http://www.baidu.com/link?url=7sb2kuOeQm-Ia9ivZmGF76rAl07OGzLLGtkripAS3AwzyeBQzvkcTkMR0C8sRNQN-0aWfAgWlClkedSJwfKXBPCEiW_gg9lKo0TRVjQgiTu&wd=&eqid=e6dd0eb4000309e1000000045b161760"
-        , "http://www.baidu.com/link?url=ATQhMbTq1OpUhgJcPNrmkqPQuiyDVhmLjllfTq0KdAeg6ISh7szQ_s-1ZSNWO5hqO479jTa41iBGUqU7EF44_qXv4qmVFKbxaIQi6UbBVbC&wd=&eqid=ca5e9fb3000335e8000000045b161775"
-        , "http://www.baidu.com/link?url=ZRQKOkiy8XZOigHqSDwBSrv5U3_vTXftzpq1foLx8yIDNYVu8Gd9qlo1w5N1BHY4xYpoeRwdOoMcu4xs-NNDQOwRRFi2qydYKAPszacyjt3&wd=&eqid=ecaf398500034342000000045b161786"
-        , "http://www.baidu.com/link?url=hQt9qNdLlgFNHOBbWy4oKUAs_DxTyrxGVFdMs1zyClyfJ_2F12PZIESyOxC6kFPlYqbjT19lJgNoPC84R1HgupXrEoO5JiWc_e7ref5sgX3&wd=&eqid=8bd3e0bb0003f91c000000045b1617a7"
-        , "http://www.baidu.com/link?url=QoFrrhDNLojKn6_0OV9A94WTV7R7_xHq8bD9US_zMuqeroyiGzGsZKHfqNP98tryBvYt7MQWOUNF26abUy9UbpWtd5OWqhuq6_OKf9bID8q&wd=&eqid=e6e7cf53000336cc000000045b1617c1"
-        , "http://www.baidu.com/link?url=1AOOrshr7QwuITqtI7KHS59GMW-Y5Fyuw_DAM_6IR8NY9BqMEjYWVIouHJbIvHauIbxvLRfedv9eJGm_MY6GjfbXhxgRQDbYnA5Buw_Snr3&wd=&eqid=f22cad2d00033a47000000045b1617d4"
-        , "http://www.baidu.com/link?url=X1DF96CUBmwxjLiSR-curcBgKDI9gYcva9DmySZURVvzCIf2DrYKpm-tCUni9TJ4nZEV4M9ns8HOLXknojYAv_QPFyHDK2-8QNguRa0_Zf_&wd=&eqid=c9b38d970003dabb000000045b1617eb"
-        , "http://www.baidu.com/link?url=LpE5M8_jdWMqeYajDS7W4cUvF9q-cxP_fowKS7k5N7I2lvkQaxJlQf5khuX3UiFcrixelboi5HStJHrBqKFs2RR4CE7q6BpWn-SPX5g-go3&wd=&eqid=ec3077910003bcec000000045b1617ff"
-        , "http://www.baidu.com/link?url=FaV1_gnoXI3qRN641k_v4D1POQAJWi58VEVb7Dkiy63ycjxLILlwh82bEfdWOwO7xKR383fTShPhcYPjKKWO2A3HZxYU108g28Zf08YqBOy&wd=&eqid=837c32c5000318a8000000045b161813"
-        , "http://www.baidu.com/link?url=mLnB_tp5euSJ_zfL21HMoWN9gUmjoTHMy0K8FJQLk9J7YXMvX8DYAK1x2Ba_I6HTxGau2JtEs0MaqxAQpPW4KjJP0CuMuEaz8TPE3gTbQ27&wd=&eqid=aed368660003d065000000045b161832"
-        , "http://www.baidu.com/link?url=HNmgeA08BdIWFpJwZ_oxkkkqFeDv4xhJmDKunWL0-zxuAZGx2iRgwUCVkAvdimLg0nJntURlTfkFvLnl8CYkoyUS26xV4rYPqkqZ5QZ2WS_&wd=&eqid=e97089fb0003415c000000045b16184f"
-        , "http://jingyan.baidu.com/article/03b2f78c28e6015ea337ae5f.html"
-        , "http://jingyan.baidu.com/article/3065b3b6495e79becff8a4b5.html"
-        , "http://jingyan.baidu.com/article/4853e1e5b35da61909f726d9.html"// GTA5如何获得圣太郎 GTA5线上模式 死亡尾流
-        , "http://jingyan.baidu.com/article/03b2f78c28e6015ea337ae5f.html" //Microsoft账户如何解除与安卓设备的绑定
-        , "http://jingyan.baidu.com/article/3065b3b6495e79becff8a4b5.html"//Steam如何还原游戏 Steam如何在Win10中还原游戏
-        , "http://jingyan.baidu.com/article/00a07f3804fcf782d128dc64.html?allowHTTP=1"//GTA5故事模式进入线上模式
-        , "http://jingyan.baidu.com/article/c843ea0bd615d877921e4a7a.html?allowHTTP=1"//GTA5 OL 单人地堡出货攻略 黑色叛乱份子送货
-        , "http://jingyan.baidu.com/article/1e5468f94eada4484861b744.html"//Visual Studio 2017 安装图解 vs2017 for win
-        , "http://jingyan.baidu.com/article/f54ae2fc76a2161e93b84946.html?allowHTTP=1" //GTA5线上单人地堡出货攻略 尖锥魅影送货
+        "httpss://www.baidu.com/link?url=AtqNEBagUHWxxJ10-4e4wp3HZoUTXePZVBRYxxQ01m9JIE6ij4iEON5TsskZckRqIgouRGlVCGkVPLl5upqfQSelL-hmnvSIgS4hFXQe9S3&wd=&eqid=ae65aebe000320d0000000045b16162f"
+        , "https://www.baidu.com/link?url=rGLW9mu0LSLH6t1BnoFHc_V_yY5Qb9l4GMoK-K378p--FeovHbz8pA5mUhzJdMz-WMzu1KMphZXDcSqQQHtWY3kTOMyfvkQRwfXowPR0NVy&wd=&eqid=cc6dddd70003b9f9000000045b161645"
+        , "https://www.baidu.com/link?url=xCdJRq5EnuKqM-vXMzrwhKDiCZzGnR70bf7ZvGD3Wf0otr6Nl6e1DKj_DYt889EIRFMAVE2HTlFrfa6Z8bf22rv5dBRtNqxXJTFWmqrFUCO&wd=&eqid=e97089fb00032106000000045b16169c"
+        , "https://www.baidu.com/link?url=TKpmtKEShM5cvPmf2F7AXx0kiUBk5RsD_WAV82L3mBKvyMrrKICgeYu1FQA6FGrGuFLCmDK0MgMhDwHqtlbEZXPLgPzoX5oYaGaz7TRXrTG&wd=&eqid=c41013980002720c000000045b160a9a"
+        , "https://www.baidu.com/link?url=PwJbavM4yPAP4s-s3BgQbtP4qTT9P0OBpqoGquZcB3g-va3UfGzG1X0Q2frZnmML0nIOk-6ZqRm64hHJfXBtX0FmZTvDS-98U-FEiDo4aQq&wd=&eqid=847a33500003fa9a000000045b1616c7"
+        , "https://www.baidu.com/link?url=JurLryynjBozo5Byy_g_v6OcwGwluzCDbVxly8cAtPLlgNdSZblir6IE2rcGdIQuum55V_XvpLpjwJQBfJi38T85ss9cJ3D8bozykYF-99y&wd=&eqid=b1706f2200039b6c000000045b1616e8"
+        , "https://www.baidu.com/link?url=IAuCF47CuT9VH2DRT_EaVOXablNKINNMqG4yMAI7oRtqUJ71mwOZ4ekEI2r6pnRL3a2a1P8gP16-UBIyLHeNSsuuQHBIiURzRL1FgXoaWNu&wd=&eqid=b068191200034a80000000045b16170a"
+        , "https://www.baidu.com/link?url=PbOSBSEywpzaVfuGJb2cfOTpCttLVI4eiT2RAX8Ojlg1pES0FgA8zFuVWqeMmQHqq2EoLAtWz7WJ2KmR3cRKnxQQuaXow78bAN56BzJKHXS&wd=&eqid=f73409c60003d667000000045b161720"
+        , "https://www.baidu.com/link?url=9Ndtu4XtzBc32HQ7G-YY82ueRbDHBUOkfomdxgM1JHy-BhPsBYG6so3vFpPVis-g6nKosiPCKSPIwzwBJ7_D_8KwRnLPhYElOCwzVKCamQq&wd=&eqid=d8f973f40003d389000000045b161735"
+        , "https://www.baidu.com/link?url=7sb2kuOeQm-Ia9ivZmGF76rAl07OGzLLGtkripAS3AwzyeBQzvkcTkMR0C8sRNQN-0aWfAgWlClkedSJwfKXBPCEiW_gg9lKo0TRVjQgiTu&wd=&eqid=e6dd0eb4000309e1000000045b161760"
+        , "https://www.baidu.com/link?url=ATQhMbTq1OpUhgJcPNrmkqPQuiyDVhmLjllfTq0KdAeg6ISh7szQ_s-1ZSNWO5hqO479jTa41iBGUqU7EF44_qXv4qmVFKbxaIQi6UbBVbC&wd=&eqid=ca5e9fb3000335e8000000045b161775"
+        , "https://www.baidu.com/link?url=ZRQKOkiy8XZOigHqSDwBSrv5U3_vTXftzpq1foLx8yIDNYVu8Gd9qlo1w5N1BHY4xYpoeRwdOoMcu4xs-NNDQOwRRFi2qydYKAPszacyjt3&wd=&eqid=ecaf398500034342000000045b161786"
+        , "https://www.baidu.com/link?url=hQt9qNdLlgFNHOBbWy4oKUAs_DxTyrxGVFdMs1zyClyfJ_2F12PZIESyOxC6kFPlYqbjT19lJgNoPC84R1HgupXrEoO5JiWc_e7ref5sgX3&wd=&eqid=8bd3e0bb0003f91c000000045b1617a7"
+        , "https://www.baidu.com/link?url=QoFrrhDNLojKn6_0OV9A94WTV7R7_xHq8bD9US_zMuqeroyiGzGsZKHfqNP98tryBvYt7MQWOUNF26abUy9UbpWtd5OWqhuq6_OKf9bID8q&wd=&eqid=e6e7cf53000336cc000000045b1617c1"
+        , "https://www.baidu.com/link?url=1AOOrshr7QwuITqtI7KHS59GMW-Y5Fyuw_DAM_6IR8NY9BqMEjYWVIouHJbIvHauIbxvLRfedv9eJGm_MY6GjfbXhxgRQDbYnA5Buw_Snr3&wd=&eqid=f22cad2d00033a47000000045b1617d4"
+        , "https://www.baidu.com/link?url=X1DF96CUBmwxjLiSR-curcBgKDI9gYcva9DmySZURVvzCIf2DrYKpm-tCUni9TJ4nZEV4M9ns8HOLXknojYAv_QPFyHDK2-8QNguRa0_Zf_&wd=&eqid=c9b38d970003dabb000000045b1617eb"
+        , "https://www.baidu.com/link?url=LpE5M8_jdWMqeYajDS7W4cUvF9q-cxP_fowKS7k5N7I2lvkQaxJlQf5khuX3UiFcrixelboi5HStJHrBqKFs2RR4CE7q6BpWn-SPX5g-go3&wd=&eqid=ec3077910003bcec000000045b1617ff"
+        , "https://www.baidu.com/link?url=FaV1_gnoXI3qRN641k_v4D1POQAJWi58VEVb7Dkiy63ycjxLILlwh82bEfdWOwO7xKR383fTShPhcYPjKKWO2A3HZxYU108g28Zf08YqBOy&wd=&eqid=837c32c5000318a8000000045b161813"
+        , "https://www.baidu.com/link?url=mLnB_tp5euSJ_zfL21HMoWN9gUmjoTHMy0K8FJQLk9J7YXMvX8DYAK1x2Ba_I6HTxGau2JtEs0MaqxAQpPW4KjJP0CuMuEaz8TPE3gTbQ27&wd=&eqid=aed368660003d065000000045b161832"
+        , "https://www.baidu.com/link?url=HNmgeA08BdIWFpJwZ_oxkkkqFeDv4xhJmDKunWL0-zxuAZGx2iRgwUCVkAvdimLg0nJntURlTfkFvLnl8CYkoyUS26xV4rYPqkqZ5QZ2WS_&wd=&eqid=e97089fb0003415c000000045b16184f"
+        , "https://jingyan.baidu.com/article/03b2f78c28e6015ea337ae5f.html"
+        , "https://jingyan.baidu.com/article/3065b3b6495e79becff8a4b5.html"
+        , "https://jingyan.baidu.com/article/4853e1e5b35da61909f726d9.html"// GTA5如何获得圣太郎 GTA5线上模式 死亡尾流
+        , "https://jingyan.baidu.com/article/03b2f78c28e6015ea337ae5f.html" //Microsoft账户如何解除与安卓设备的绑定
+        , "https://jingyan.baidu.com/article/3065b3b6495e79becff8a4b5.html"//Steam如何还原游戏 Steam如何在Win10中还原游戏
+        , "https://jingyan.baidu.com/article/00a07f3804fcf782d128dc64.html?allowhttps=1"//GTA5故事模式进入线上模式
+        , "https://jingyan.baidu.com/article/c843ea0bd615d877921e4a7a.html?allowhttps=1"//GTA5 OL 单人地堡出货攻略 黑色叛乱份子送货
+        , "https://jingyan.baidu.com/article/1e5468f94eada4484861b744.html"//Visual Studio 2017 安装图解 vs2017 for win
+        , "https://jingyan.baidu.com/article/f54ae2fc76a2161e93b84946.html?allowhttps=1" //GTA5线上单人地堡出货攻略 尖锥魅影送货
     ];
 
     $(function () {
@@ -53,7 +53,7 @@
     });
 
     function load_home() {
-        document.getElementById("viewDiv").innerHTML = '<object type="text/html" data="http://jingyan.baidu.com/article/3065b3b6495e79becff8a4b5.html" width="100%" height="600px"></object>';
+        document.getElementById("viewDiv").innerHTML = '<object type="text/html" data="https://jingyan.baidu.com/article/3065b3b6495e79becff8a4b5.html" width="100%" height="600px"></object>';
     };
 </script>
 </html>
