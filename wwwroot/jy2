@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="250">
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div id="viewDiv">
+    </div>
+</body>
+<script type="text/javascript">
+    var list = [
+         "https://jingyan.baidu.com/album/03b2f78c28e6015ea337ae5f.html?stepindex=3&wap_detail_test=N2&st=5&os=1&bd_page_type=1&net_type=&ssid=&from="
+        , "https://jingyan.baidu.com/album/3065b3b6495e79becff8a4b5.html?stepindex=3&wap_detail_test=N2&st=5&os=1&bd_page_type=1&net_type=&ssid=&from="
+        , "https://jingyan.baidu.com/album/4853e1e5b35da61909f726d9.html"// GTA5如何获得圣太郎 GTA5线上模式 死亡尾流
+        , "https://jingyan.baidu.com/album/03b2f78c28e6015ea337ae5f.html?stepindex=3&wap_detail_test=N2&st=5&os=1&bd_page_type=1&net_type=&ssid=&from=" //Microsoft账户如何解除与安卓设备的绑定
+        , "https://jingyan.baidu.com/album/3065b3b6495e79becff8a4b5.html"//Steam如何还原游戏 Steam如何在Win10中还原游戏
+        , "https://jingyan.baidu.com/album/00a07f3804fcf782d128dc64.html?allowhttp=1"//GTA5故事模式进入线上模式
+        , "https://jingyan.baidu.com/album/c843ea0bd615d877921e4a7a.html?allowhttp=1"//GTA5 OL 单人地堡出货攻略 黑色叛乱份子送货
+        , "https://jingyan.baidu.com/album/1e5468f94eada4484861b744.html"//Visual Studio 2017 安装图解 vs2017 for win
+        , "https://jingyan.baidu.com/album/f54ae2fc76a2161e93b84946.html?allowhttp=1" //GTA5线上单人地堡出货攻略 尖锥魅影送货
+        ,"http://jingyan.baidu.com/album/cbf0e500542cfb2eaa289392.html?allowHTTP=1" //GTA5 PC版无限载入和Steam版无法启动的解决办法
+        ,"https://jingyan.baidu.com/album/75ab0bcb97a1ecd6864db292.html?stepindex=3&wap_detail_test=N2&st=5&os=1&bd_page_type=1&net_type=&ssid=&from=" //win10侠盗猎车手圣安地列斯运行出错
+        ,"https://jingyan.baidu.com/album/fc07f98941523912ffe519ff.html?stepindex=3&wap_detail_test=N2&st=5&os=1&bd_page_type=1&net_type=&ssid=&from=" //Visual Studio 2017 for mac 安装图解
+        ,"https://jingyan.baidu.com/album/5552ef47d4879c518ffbc9a1.html?stepindex=3&wap_detail_test=N2&st=5&os=1&bd_page_type=1&net_type=&ssid=&from=" //win7 如何添加网络位置
+        ,"https://jingyan.baidu.com/album/925f8cb8c29036c0dde056a0.html?stepindex=3&wap_detail_test=N2&st=5&os=1&bd_page_type=1&net_type=&ssid=&from=" //synaptics使用帮助 触摸板定点装置使用
+        ,"https://jingyan.baidu.com/album/148a1921fe8f054d71c3b1cb.html?stepindex=3&wap_detail_test=N2&st=5&os=1&bd_page_type=1&net_type=&ssid=&from=" //Sql Server 2017 express 安装流程
+        ,"https://jingyan.baidu.com/album/86f4a73e7dc65437d65269c9.html?stepindex=3&wap_detail_test=N2&st=5&os=1&bd_page_type=1&net_type=&ssid=&from=" //win10如何设定通知中心操作中心 使用通知中心 
+    ];
+    $(function () {
+        $(list).each(function (index, element) {
+            var f = $(" <iframe src='" + element + "' style='height:200px;width:600px;'> </iframe>");
+            $("body").append(f);
+        });
+        //load_home();
+    });
+    function load_home() {
+        document.getElementById("viewDiv").innerHTML = '<object type="text/html" data="https://jingyan.baidu.com/album/3065b3b6495e79becff8a4b5.html?stepindex=3&wap_detail_test=N2&st=5&os=1&bd_page_type=1&net_type=&ssid=&from=" width="100%" height="600px"></object>';
+    };
+</script>
+</html>
