@@ -32,17 +32,19 @@
         , "http://www.baidu.com/link?url=FaV1_gnoXI3qRN641k_v4D1POQAJWi58VEVb7Dkiy63ycjxLILlwh82bEfdWOwO7xKR383fTShPhcYPjKKWO2A3HZxYU108g28Zf08YqBOy&wd=&eqid=837c32c5000318a8000000045b161813"
         , "http://www.baidu.com/link?url=mLnB_tp5euSJ_zfL21HMoWN9gUmjoTHMy0K8FJQLk9J7YXMvX8DYAK1x2Ba_I6HTxGau2JtEs0MaqxAQpPW4KjJP0CuMuEaz8TPE3gTbQ27&wd=&eqid=aed368660003d065000000045b161832"
         , "http://www.baidu.com/link?url=HNmgeA08BdIWFpJwZ_oxkkkqFeDv4xhJmDKunWL0-zxuAZGx2iRgwUCVkAvdimLg0nJntURlTfkFvLnl8CYkoyUS26xV4rYPqkqZ5QZ2WS_&wd=&eqid=e97089fb0003415c000000045b16184f"
-		, "http://jingyan.baidu.com/article/03b2f78c28e6015ea337ae5f.html"
-		, "http://jingyan.baidu.com/article/3065b3b6495e79becff8a4b5.html"
+        , "http://jingyan.baidu.com/article/03b2f78c28e6015ea337ae5f.html"
+        , "http://jingyan.baidu.com/article/3065b3b6495e79becff8a4b5.html"
         , "http://jingyan.baidu.com/article/4853e1e5b35da61909f726d9.html"// GTA5如何获得圣太郎 GTA5线上模式 死亡尾流
         , "http://jingyan.baidu.com/article/03b2f78c28e6015ea337ae5f.html" //Microsoft账户如何解除与安卓设备的绑定
         , "http://jingyan.baidu.com/article/3065b3b6495e79becff8a4b5.html"//Steam如何还原游戏 Steam如何在Win10中还原游戏
+        , "http://jingyan.baidu.com/article/00a07f3804fcf782d128dc64.html?allowHTTP=1"//GTA5故事模式进入线上模式
+        , "http://jingyan.baidu.com/article/c843ea0bd615d877921e4a7a.html?allowHTTP=1"//GTA5 OL 单人地堡出货攻略 黑色叛乱份子送货
+        , "http://jingyan.baidu.com/article/1e5468f94eada4484861b744.html"//Visual Studio 2017 安装图解 vs2017 for win
+        , "http://jingyan.baidu.com/article/f54ae2fc76a2161e93b84946.html?allowHTTP=1" //GTA5线上单人地堡出货攻略 尖锥魅影送货
     ];
 
-    $(function ()
-    {
-        $(list).each(function (index, element)
-        {
+    $(function () {
+        $(list).each(function (index, element) {
             var f = $(" <iframe src='" + element + "' style='height:200px;width:600px;'> </iframe>");
             $("body").append(f);
 
@@ -50,8 +52,7 @@
         //load_home();
     });
 
-    function load_home()
-    {
+    function load_home() {
         document.getElementById("viewDiv").innerHTML = '<object type="text/html" data="http://jingyan.baidu.com/article/3065b3b6495e79becff8a4b5.html" width="100%" height="600px"></object>';
     };
 </script>
